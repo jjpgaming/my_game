@@ -1,4 +1,8 @@
 var canva;
+var gameState = 0;
+var contestantCount ;
+var database;
+var quiz,question,contestant;
 
 function setup(){
   canvas = createCanvas(850,400);
